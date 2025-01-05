@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sampocalypse Register</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input[type="password"] {
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .bottom-text {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #bbb;
+        }
+        /* Star at the bottom */
+        .star {
+            font-family: "Courier New", monospace;
+            color: yellow;
+            font-size: 50px;
+            margin-top: 40px;
+        }
+        .star-text {
+            color: #FFD700; /* Gold color for the star */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sampocalypse Register</h1>
+
+    <!-- Password input field and Login button -->
+    <div>
+        <input type="password" id="password" placeholder="Enter password">
+        <br>
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- Bottom text -->
+    <div class="bottom-text">
+        Sam will give you a password through your E-mail if you were accepted.
+    </div>
+
+    <!-- Star at the bottom -->
+    <div class="star">
+        <pre class="star-text">
+             *
+            ***   
+           *****  
+          ******* 
+         *********
+        ***********
+         *******
+          *****
+           ***
+            *
+        </pre>
+    </div>
+
+    <script>
+        function login() {
+            // When the Login button is clicked, display "Wrong!"
+            alert("Wrong!");
+        }
+    </script>
+
+</body>
+</html>
